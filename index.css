@@ -1,0 +1,110 @@
+*{
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: #1E3163;
+            display: flex;
+            flex-flow: row nowrap;
+            }
+            .logo{
+                background: #D61C4E;
+                flex: 1 1 auto;
+            }
+            .nav{
+                background: #D61C4E;
+                flex: 5 1 auto;
+            }
+            .social{
+                background: #D61C4E;
+                flex: 1 1 auto;
+            }
+        .texto-principal{
+            background: #FF8D29;
+        }
+            h1{
+                background: #F6F54D;
+            }
+    .section{
+        background: #000;
+        display: flex;
+    }
+        .articulos{
+            background: #393E46;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: #3D6CB9;
+                flex: 1 1 40%;
+            }
+            .article{
+                background: #3D6CB9;
+                flex: 1 1 40%;
+            }
+            .article{
+                background: #3D6CB9;
+                flex: 1 1 40%;
+            }
+            .article{
+                background: #3D6CB9;
+                flex: 1 1 40%;
+            }
+            .navegacion{
+                background: #4A9FF5;
+                flex: 1 1 100%;
+            }
+        .aside{
+            background: #D34848;
+            flex: 1 1 auto;
+        }
+            .publicidad{
+                background: #FFE98A;
+            }
+            .publicidad{
+                background: #FFE98A;
+            }
+    .footer{
+     background: #000;   
+    }
+        .pie{
+            background: #FFA41B;
+        }
+   @media all and (max-width: 768px){
+        .section{
+            flex-direction: column;
+            background: #F6F54D;
+        }
+    }
+    @media all and (max-width:600px){
+        .menu{
+            flex-direction: column;
+        }
+        .article{
+            background: #43919B;
+            flex: 1 1 100%;
+        }
+        .navegacion{
+            background: #00FFC6;
+        }
+        .aside{
+            background: #FF5403;
+        }
+        .publicidad{
+            background: #FFAB76;
+        }
+    }
+    
+    
